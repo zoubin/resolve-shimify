@@ -1,0 +1,31 @@
+{
+  "name": "resolve-shimify",
+  "version": "1.0.0",
+  "description": "custom resolve for browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/resolve-shimify.git"
+  },
+  "keywords": [
+    "browserify",
+    "browserify-plugin",
+    "resolve",
+    "symlink",
+    "react"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoubin/resolve-shimify/issues"
+  },
+  "homepage": "https://github.com/zoubin/resolve-shimify#readme",
+  "devDependencies": {
+    "browserify": "^10.2.6",
+    "sink-transform": "^0.1.4",
+    "tape": "^4.0.0"
+  }
+}
